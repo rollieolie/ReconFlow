@@ -1,12 +1,12 @@
 # ReconFlow
 <html>
   <body>
-      <B>JHaddix inspired recon flow bash shell wrapper</B> 
+    <B>JHaddix inspired recon flow bash shell wrapper</B> 
 
-      <B>To get this program please go ahead and clone the repository</B>
+    <B>To get this program please go ahead and clone the repository</B>
 
-      <B>Programs used in my wrapper, where to get them, and who it's made by:</B>
-
+    <B>Programs used in my wrapper, where to get them, and who it's made by:</B>
+        <td>
         - assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
 
         - subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
@@ -42,11 +42,12 @@
         - jq - https://stedolan.github.io/jq/download/
 
         - python3 - https://docs.python-guide.org/starting/install3/linux/
-
+    </td>
 
       <p>
-        <B>When using these programs I have it setup so all I have to do is call the program (ex: cat alive.txt | assetfinder or amass enum -df <input.txt>). The Go programs mostly allow for you to call them without including path. The programs I created you have a few options. You can" cd /usr/bin; vim or nano subs and copy code to subs; chmod +x subs or cd /path/to/ReconFlow; cp subs.py /usr/bin/subs chomd +x /usr/bin/subs; or change my code from ReconFlow.sh to call the program from path(ex: Python3 ~/tools/ReconFlow/subs.py 'input'
-          </B> 
+        <B>
+          When using these programs I have it setup so all I have to do is call the program (ex: cat alive.txt | assetfinder or amass enum -df <input.txt>). The Go programs mostly allow for you to call them without including path. The programs I created you have a few options. You can" cd /usr/bin; vim or nano subs and copy code to subs; chmod +x subs or cd /path/to/ReconFlow; cp subs.py /usr/bin/subs chomd +x /usr/bin/subs; or change my code from ReconFlow.sh to call the program from path(ex: Python3 ~/tools/ReconFlow/subs.py 'input'
+        </B> 
       </p>
   </body>
 </html>
