@@ -53,7 +53,7 @@ When using these programs I have it setup so all I have to do is call the progra
   1. git clone https://github.com/rollieolie/ReconFlow.git
   2. cd ReconFlow
   3. Make sure all programs needed are downloaded
-  4. copy subs.py, crtypy.py, and crtsh.sh to /usr/bin/(program name)
+  4. copy subs.py, crtypy.py, and crtsh.sh to /usr/bin/(program name) or run ./copy_tousrbin.sh
   5. Update your console,python3, and pip3
   6. pip3 install -r requierments.txt or cat requierments.txt | xargs -I{} pip3 install {}
   7. ./ReconFlow.sh -h (shows you how to use the tool)
