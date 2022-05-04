@@ -1,9 +1,9 @@
 # ReconFlow
-JHaddix inspired recon flow bash shell wrapper 
+<B>JHaddix inspired recon flow bash shell wrapper</B> 
 
-To get this program please go ahead and clone the repository
+<B>To get this program please go ahead and clone the repository</B>
 
-Programs used in my wrapper, where to get them, and who it's made by:
+<B>Programs used in my wrapper, where to get them, and who it's made by:</B>
 
 - assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
 
