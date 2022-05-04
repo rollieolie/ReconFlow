@@ -6,7 +6,7 @@
 
 **The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.**
 
-**To get this program please go ahead and clone the repository**
+**This is a bash script with a little python3. Right now only for linux systems**
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
 
