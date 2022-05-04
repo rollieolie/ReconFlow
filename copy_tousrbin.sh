@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cp subs.py /usr/bin/subs;
+cp subs.sh /usr/bin/subs;
 chmod +x /usr/bin/subs;
 cp crtypy.py /usr/bin/crtypy;
-chmod +x crtypy
+chmod +x /usr/bin/crtypy
 cp crtsh.sh /usr/bin/crtsh;
 chmod +x crtsh;
 
