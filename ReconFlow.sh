@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# remove the # and add github api token if you want to use it
 
 
 
@@ -24,7 +24,7 @@ subfinder -dL $1 | tee -a all.txt;
 cat $1 | xargs -I{} subs {} | sort -u | tee -a all.txt;
 cat $1 | xargs -I{} crtsh {} | sort -u | tee -a all.txt;
 amass enum -df $1 | tee -a all.txt;
-cat $1 | xargs -I{} toolsgithub-searchgithub=subdomains.py -t "ghp_pK23BL440R7fSxnz6XabfegjQnOZ05HJWF" -d {} | tee -a all.txt;
+#cat $1 | xargs -I{} toolsgithub-searchgithub=subdomains.py -t "Github_ApiToken" -d {} | tee -a all.txt;
 amass enum -brute -df $1 | tee -a all.txt;
 cat all.txt | httpx | tee -a alive.txt;
 }
