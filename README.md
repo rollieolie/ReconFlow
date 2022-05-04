@@ -10,7 +10,7 @@
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
 
-- assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
+- assetfinder - https://github.com/tomnomnom/assetfinder - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
 - subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
 
@@ -24,17 +24,17 @@
 
 - httpx - https://github.com/projectdiscovery/httpx - Projectdiscovery
 
-- fff - https://github.com/tomnomnom/hacks -Worth to download all the hacks  - tomnomnom 
+- fff - https://github.com/tomnomnom/hacks -Worth to download all the hacks  - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting) 
 
 - gf and gf added gf files - https://github.com/tomnomnom/gf - tomnomnom and https://github.com/1ndianl33t/Gf-Patterns 1ndianl33t
 
 - Nuclei (standard templates) - https://github.com/projectdiscovery/nuclei - Projectdiscovery
 
-- meg -https://github.com/tomnomnom/meg - tomnomnom
+- meg -https://github.com/tomnomnom/meg - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
 - gauplus - https://github.com/bp0lr/gauplus - bp0lr
 
-- waybackurls - https://github.com/tomnomnom/waybackurls - tomnomnom
+- waybackurls - https://github.com/tomnomnom/waybackurls - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
 - EyeWitness - https://github.com/FortyNorthSecurity/EyeWitness - ChrisTruncer/FortyNorthSecurity
 
@@ -60,6 +60,8 @@ When using these programs I have it setup so all I have to do is call the progra
   8. ./ReconFlow.sh -s /path/to/ProgramScope.txt -c -g -n-w -P -p or -a
   9. Note that the tool does not have to have all of these options listed above. Default use: ./ReconFlow -s /path/to/ProgramScope.txt
   10. This program will run as fast as the programs used. If you have a lot of domains, it could take awhile. Go do some google/github/gitlab/shodan dorking while waiting.
-  11. Last tid bit...if you are not root on your terminal add 'sudo' to the command.
+  11. Any programs you don't want to install or use, you can vim or nano into ReconFlow.sh and add # to the program you don't want to use or download.
+  12. Last tid bit...if you are not root on your terminal add 'sudo' to the command.
   
 
+### Last but not least, thank you to the creaters of all these wonderful tools and to all the content creators.  
