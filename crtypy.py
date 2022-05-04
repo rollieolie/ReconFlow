@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Don't forget cp crtypy.py /usr/bin/crtypy
 
 import requests
 from bs4 import BeautifulSoup
