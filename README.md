@@ -6,7 +6,7 @@
 
 **The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.**
 
-**This is a bash script with a little python3. Right now only for linux systems**
+**This is a bash script with a little Python3. Right now only for linux systems.**
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
 
@@ -46,7 +46,7 @@
 
 - python3 - https://docs.python-guide.org/starting/install3/linux/
 
-When using these programs I have it setup so all I have to do is call the program (ex: cat alive.txt | assetfinder or amass enum -df <input.txt>). The Go programs mostly allow for you to call them without including path. The programs I created you have a few options. You can" cd /usr/bin; vim or nano subs and copy code to subs; chmod +x subs or cd /path/to/ReconFlow; cp subs.py /usr/bin/subs chomd +x /usr/bin/subs; or change my code from ReconFlow.sh to call the program from path(ex: Python3 ~/tools/ReconFlow/subs.py 'input'.
+When using these programs I have it setup so all I have to do is call the program (ex: cat alive.txt | assetfinder or amass enum -df <input.txt>). The Go programs mostly allow for you to call them without including path. The programs I created you have a few options. You can" cd /usr/bin; vim or nano subs and copy code to subs; chmod +x subs or cd /path/to/ReconFlow; cp subs.py /usr/bin/subs chomd +x /usr/bin/subs; or change my code from ReconFlow.sh to call the program from path(ex: Python3 ~/tools/ReconFlow/subs.py 'input'. I have also added a program copy_tousrbin.sh to do this for you.
 
 
 ### Using ReconFlow
