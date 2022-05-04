@@ -1,5 +1,6 @@
 #!/bin/bash
 #add your own github key or put a # infront
+# Don't forget cp subs.sh /usr/bin/subs;chmod +x subs
 
 echo alienvault
 echo -----------------------------------
