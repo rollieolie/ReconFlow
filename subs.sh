@@ -16,8 +16,8 @@ echo --------------------------------
 curl -s "https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=$1" | jq '.subdomains[]' | sed 's/\"//g';
 echo shodan
 echo ---------------------------------
-curl -s -X GET "https://api.shodan.io/dns/domain/$1?key=Github_ApiToken" | jq '.data[].subdomain' | sed 's/\"//g' | tee subdos.txt;
-cat subdos.txt | xargs -I{} echo {}.$1;
+#curl -s -X GET "https://api.shodan.io/dns/domain/$1?key=Github_ApiToken" | jq '.data[].subdomain' | sed 's/\"//g' | tee subdos.txt;
+#cat subdos.txt | xargs -I{} echo {}.$1;
 echo sonar
 echo ------------------------------------
 curl -s "https://sonar.omnisint.io/subdomains/$1?page=1" | jq '.[]' | sed 's/"//g';
