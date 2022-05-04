@@ -60,5 +60,6 @@ When using these programs I have it setup so all I have to do is call the progra
   8. ./ReconFlow.sh -s /path/to/ProgramScope.txt -c -g -n-w -P -p or -a
   9. Note that the tool does not have to have all of these options listed above. Default use: ./ReconFlow -s /path/to/ProgramScope.txt
   10. This program will run as fast as the programs used. If you have a lot of domains, it could take awhile. Go do some google/github/gitlab/shodan dorking while waiting.
+  11. Last tid bit...if you are not root on your terminal add 'sudo' to the command.
   
 
