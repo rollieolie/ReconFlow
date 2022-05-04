@@ -4,7 +4,7 @@
 
 **Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally**
 
-**The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.
+**The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.**
 
 **To get this program please go ahead and clone the repository**
 
