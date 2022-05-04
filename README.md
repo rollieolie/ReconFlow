@@ -64,4 +64,4 @@ When using these programs I have it setup so all I have to do is call the progra
   12. Last tid bit...if you are not root on your terminal add 'sudo' to the command.
   
 
-### Last but not least, thank you to the creaters of all these wonderful tools and to all the content creators.  
+### Last but not least, thank you to the amazing creators of these amazing tools and to all the content creators.  
