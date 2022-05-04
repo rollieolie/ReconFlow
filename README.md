@@ -5,13 +5,13 @@ To get this program please go ahead and clone the repository
 
 Programs used in my wrapper:
 
-# assetfinder - https://github.com/tomnomnom/assetfinder tomnomnom
+- assetfinder - https://github.com/tomnomnom/assetfinder tomnomnom
 
-# subfinder - https://github.com/projectdiscovery/subfinder Projectdiscovery 
+- subfinder - https://github.com/projectdiscovery/subfinder Projectdiscovery 
 
-#subs - Comes with ReconFlow package uses jq (must download)
+- subs - Comes with ReconFlow package uses jq (must download)
 
-#crtsh - Comes with ReconFlow package (shell program wrapped around a python3 program) Install python3 and pip3 install -r requierments.txt
+- crtsh - Comes with ReconFlow package (shell program wrapped around a python3 program) Install python3 and pip3 install -r requierments.txt
 
 #amass - https://github.com/OWASP/Amass Jeff Foley and OWASP
 
