@@ -1,6 +1,10 @@
 # ReconFlow
 
-**JHaddix inspired recon flow bash shell wrapper**
+**JHaddix and Nahamsec inspired recon flow.**
+
+**Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally**
+
+**The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.
 
 **To get this program please go ahead and clone the repository**
 
@@ -50,9 +54,11 @@ When using these programs I have it setup so all I have to do is call the progra
   2. cd ReconFlow
   3. Make sure all programs needed are downloaded
   4. copy subs.py, crtypy.py, and crtsh.sh to /usr/bin/(program name)
-  5. ./ReconFlow.sh -h (shows you how to use the tool)
-  6. ./ReconFlow.sh -s /path/to/ProgramScope.txt -c -g -n-w -P -p or -a
-  7. Note that the tool does not have to have all of these options listed above. Default use: ./ReconFlow -s /path/to/ProgramScope.txt
-  8. This program will run as fast as the programs used. If you have a lot of domains, it could take awhile. Go do some google/github/gitlab/shodan dorking while waiting.
+  5. Update your console,python3, and pip3
+  6. pip3 install -r requierments.txt or cat requierments.txt | xargs -I{} pip3 install {}
+  7. ./ReconFlow.sh -h (shows you how to use the tool)
+  8. ./ReconFlow.sh -s /path/to/ProgramScope.txt -c -g -n-w -P -p or -a
+  9. Note that the tool does not have to have all of these options listed above. Default use: ./ReconFlow -s /path/to/ProgramScope.txt
+  10. This program will run as fast as the programs used. If you have a lot of domains, it could take awhile. Go do some google/github/gitlab/shodan dorking while waiting.
   
 
