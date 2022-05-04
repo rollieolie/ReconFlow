@@ -155,7 +155,7 @@ Help()
    echo "Seriously if you're good at hacking get paid for it legally. "
    echo
    echo "Syntax: scriptTemplate [-h|s|c|g|n|w|P|p|a]"
-   echo "use : ./ReconFlow -s /path/to/ProgramScope.txt -c -g -n -w -P -p or -a "
+   echo "use: ./ReconFlow -s /path/to/ProgramScope.txt  or ./ReconFlow -a /path/to/ProgramScope.txt or ./ReconFlow -s /path/to/ProgramScope [options] (-c -g -n -w -P -p -a)"
    echo
    echo "options:"
    echo "-h     Forget how is works? Go ahead and ask for help :)."
