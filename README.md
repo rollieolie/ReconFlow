@@ -1,10 +1,10 @@
 # ReconFlow
 
-**JHaddix inspired recon flow bash shell wrapper
+**JHaddix inspired recon flow bash shell wrapper**
 
-**To get this program please go ahead and clone the repository
+**To get this program please go ahead and clone the repository**
 
-**Programs used in my wrapper, where to get them, and who it's made by:
+**Programs used in my wrapper, where to get them, and who it's made by:**
 
 - assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
 
@@ -54,5 +54,5 @@ When using these programs I have it setup so all I have to do is call the progra
   6. ./ReconFlow.sh -s /path/to/ProgramScope.txt -c -g -n-w -P -p or -a
   7. Note that the tool does not have to have all of these options listed above. Default use: ./ReconFlow -s /path/to/ProgramScope.txt
   8. This program will run as fast as the programs used. If you have a lot of domains, it could take awhile. Go do some google/github/gitlab/shodan dorking while waiting.
-  9. 
+  
 
