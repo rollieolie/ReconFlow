@@ -6,9 +6,9 @@
 
 ### Programs used in my wrapper, where to get them, and who it's made by:
 
--assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
+- assetfinder - https://github.com/tomnomnom/assetfinder - tomnomnom
 
--subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
+- subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
 
 - subs - Comes with ReconFlow package uses jq (must download)
 
