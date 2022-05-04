@@ -50,7 +50,7 @@ When using these programs I have it setup so all I have to do is call the progra
 
 
 ### Using ReconFlow
-  1. git clone github.com/rollieolie/ReconFlow.git
+  1. git clone https://github.com/rollieolie/ReconFlow.git
   2. cd ReconFlow
   3. Make sure all programs needed are downloaded
   4. copy subs.py, crtypy.py, and crtsh.sh to /usr/bin/(program name)
