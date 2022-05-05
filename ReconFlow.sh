@@ -50,46 +50,49 @@ cd ..
 
 #Gf function to find secrets
 
+#Gf function to find secrets
+
 Gfin_stuff(){
 httpx -l alive.txt -srd roots;
 cd ./roots;
-gf aws-keys | tee aws.txt;
-gf base64  | tee 64.txt;
-gf cors | tee cors.txt;
-gf debug-pages | tee dbpgs.txt;
-gf firebase  | tee fire.txt;
-gf fw  | tee fw.txt;
-gf go-functions  | tee gofu.txt;
-gf http-auth  | tee httauth.txt;
-gf ip  | tee ip.txt;
-gf json-sec  | tee jsonsec.txt;
-gf php-curl  | tee phpcurl.txt;
-gf php-errors  | tee phperr.txt;
-gf php-serialized  | tee phpserial.txt;
-gf php-sinks  | tee phpsinks.txt;
-gf php-sources  | tee phpsources.txt;
-gf s3-buckets  | tee s3.txt;
-gf sec  | tee sec.txt;
-gf servers  | tee servers.txt;
-gf strings  | tee strings.txt;
-gf takeovers  | tee takeovers.txt;
-gf upload-fields  | tee upload.txt;
-gf urls  | tee urls.txt;
-gf debug_logic | tee debuglogic.txt;
-gf idor | tee idor.txt;
-gf img-traversal | tee imgtrav.txt;
-gf interestingEXT | tee intEXT.txt;
-gf interestingparams | tee interparams.txt;
-gf interestingsubs | tee interssubs.txt;
-gf jsvar | tee jsvar.txt;
-gf lfi | tee lfi.txt;
-gf rce | tee rce.txt;
-gf redirect | tee redirect.txt;
-gf sqli | tee sqli.txt;
-gf ssrf | tee ssrf.txt;
-gf ssti | tee ssti.txt;
-gf upload-fields | tee uploadsfields.txt;
-gf xss | tee xss.txt;
+mkdir ../GF
+gf aws-keys | tee ../GF/aws.txt;
+gf base64  | tee ../GF/64.txt;
+gf cors | tee ../GF/cors.txt;
+gf debug-pages | tee ..GF/dbpgs.txt;
+gf firebase  | tee ../GF/fire.txt;
+gf fw  | tee ../GF/fw.txt;
+gf go-functions  | tee ../GF/gofu.txt;
+gf http-auth  | tee ../GF/httauth.txt;
+gf ip  | tee ../GF/ip.txt;
+gf json-sec  | tee ../GF/jsonsec.txt;
+gf php-curl  | tee ../GF/phpcurl.txt;
+gf php-errors  | tee ../GF/phperr.txt;
+gf php-serialized  | tee ../GF/phpserial.txt;
+gf php-sinks  | tee ../GF/phpsinks.txt;
+gf php-sources  | tee ../GF/phpsources.txt;
+gf s3-buckets  | tee ../GF/s3.txt;
+gf sec  | tee ../GF/sec.txt;
+gf servers  | tee ../GF/servers.txt;
+gf strings  | tee ../GF/strings.txt;
+gf takeovers  | tee ../GF/takeovers.txt;
+gf upload-fields  | tee ../GF/upload.txt;
+gf urls  | tee ../GF/urls.txt;
+gf debug_logic | tee ../GF/debuglogic.txt;
+gf idor | tee ../GF/idor.txt;
+gf img-traversal | tee ../GF/imgtrav.txt;
+gf interestingEXT | tee ../GF/intEXT.txt;
+gf interestingparams | tee ../GF/interparams.txt;
+gf interestingsubs | tee ../GF/interssubs.txt;
+gf jsvar | tee ../GF/jsvar.txt;
+gf lfi | tee ../GF/lfi.txt;
+gf rce | tee ../GF/rce.txt;
+gf redirect | tee ../GF/redirect.txt;
+gf sqli | tee ../GF/sqli.txt;
+gf ssrf | tee ../GF/ssrf.txt;
+gf ssti | tee ../GF/ssti.txt;
+gf upload-fields | tee ../GF/uploadsfields.txt;
+gf xss | tee ../GF/xss.txt;
 find . -type f -empty -print -delete
 cd ..
 }
@@ -115,7 +118,7 @@ grep -iEhro "(disallow: \/\w+\-\w+\/|disallow: \/\w+\-\w+\/\w+|disallow: \/\w+\/
 
 cd ..
 cd ..
-all.txt|gauplus | tok | head -n 3000 | tee -a ../wordlist.txt;
+cat all.txt|gauplus | tok | head -n 3000 | tee -a ../wordlist.txt;
 cat all.txt | waybackurls | tok | head -n 3000 | tee -a ../wordlist.txt;
 }
 
@@ -126,7 +129,7 @@ cat all.txt | waybackurls | tok | head -n 3000 | tee -a ../wordlist.txt;
 Snap_Apicture(){
 mkdir Pics
 cd Pics
-cd ~/tools/EyeWitness/Python/./EyeWitness.py --web --no-prompt -f ../alive.txt;
+Python3 ~/tools/EyeWitness/Python/EyeWitness.py --web --no-prompt -f ../alive.txt;
 }
 
 #Need to scan some ports
