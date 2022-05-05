@@ -3,9 +3,10 @@
 **ReconFlow** - Recon flow inspired by Jason Haddix and Ben Sadeghipour (Nahamsec)
 
 <p align="center">
-Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally
+  <B>Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally
 The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.
 This is a bash script with a little Python3.
+    </b>
 </p>
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
