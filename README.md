@@ -14,8 +14,7 @@ This is a bash script with a little Python3.
 
 ## Installation
 
-'''
-* git clone https://github.com/rollieolie/ReconFlow.git
+```* git clone https://github.com/rollieolie/ReconFlow.git
 * cd ReconFlow
 * run ./copy_touserbin.sh - copies programs I created to /usr/bin/$programName so they can run onces called in main program
 * If you don't want to do that you can mannually change the programs path in main program or how you please
