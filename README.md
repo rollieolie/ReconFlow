@@ -10,7 +10,7 @@
 
 
 <p align="left">
-  <B>Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally
+  <B>Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally.
 The code is not perfect, just like me or you. Feel free to modify the code when you clone it.
 This is a bash script with a little Python3.
     </B>
