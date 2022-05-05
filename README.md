@@ -6,12 +6,24 @@
 
 <p align="left">
   <B>Warning: Not for illeagal use. Don't be that person!! Get paid for being awesome legally
-The code written is as perfect as I am [no where near perfect :)]. Feel free to modify the code when you clone it.
+The code is not perfect, just like me or you. Feel free to modify the code when you clone it.
 This is a bash script with a little Python3.
     </B>
 </p>
 
 
+##Installation
+
+'''
+git clone https://github.com/rollieolie/ReconFlow.git
+cd ReconFlow
+run ./copy_touserbin.sh - copies programs I created to /usr/bin/$programName so they can run onces called in main program
+If you don't want to do that you can mannually change the programs path in main program or how you please
+To run it - ./ReconFlow -h for options or copy to /usr/bin/ then ReconFlow -h
+Don't forget to add sudo if needed and to chmod +x $program when needed
+```
+
+## Features and programs wrapped up
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
 
