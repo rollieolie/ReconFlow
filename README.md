@@ -32,41 +32,41 @@ This is a bash script with a little Python3.
 
 **Programs used in my wrapper, where to get them, and who it's made by:**
 
-- assetfinder - https://github.com/tomnomnom/assetfinder - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
+- Assetfinder - https://github.com/tomnomnom/assetfinder - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
-- subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
+- Subfinder - https://github.com/projectdiscovery/subfinder - Projectdiscovery 
 
 - subs - Comes with ReconFlow package uses jq (must download)
 
 - crtsh - Comes with ReconFlow package (shell program wrapped around a python3 program) Install python3 and pip3 install -r requierments.txt
 
-- amass - https://github.com/OWASP/Amass  - Jeff Foley and OWASP
+- Amass - https://github.com/OWASP/Amass  - Jeff Foley and OWASP
 
-- github-search - https://github.com/gwen001/github-search - gwen001 - need github api token
+- Github-Search - https://github.com/gwen001/github-search - gwen001 - need github api token
 
-- httpx - https://github.com/projectdiscovery/httpx - Projectdiscovery
+- Httpx - https://github.com/projectdiscovery/httpx - Projectdiscovery
 
-- fff - https://github.com/tomnomnom/hacks -Worth to download all the hacks  - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting) 
+- Fff - https://github.com/tomnomnom/hacks -Worth to download all the hacks  - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting) 
 
-- gf and gf added gf files - https://github.com/tomnomnom/gf - tomnomnom and https://github.com/1ndianl33t/Gf-Patterns 1ndianl33t
+- Gf and added gf files - https://github.com/tomnomnom/gf - tomnomnom and https://github.com/1ndianl33t/Gf-Patterns 1ndianl33t
 
 - Nuclei (standard templates) - https://github.com/projectdiscovery/nuclei - Projectdiscovery
 
-- meg -https://github.com/tomnomnom/meg - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
+- Meg -https://github.com/tomnomnom/meg - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
-- gauplus - https://github.com/bp0lr/gauplus - bp0lr
+- Gauplus - https://github.com/bp0lr/gauplus - bp0lr
 
-- waybackurls - https://github.com/tomnomnom/waybackurls - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
+- Waybackurls - https://github.com/tomnomnom/waybackurls - Tomnomnom (AKA Inspector Gadget of Web App Bug Hunting)
 
 - EyeWitness - https://github.com/FortyNorthSecurity/EyeWitness - ChrisTruncer/FortyNorthSecurity
 
-- naabu - https://github.com/projectdiscovery/naabu - Projectdiscovery
+- Naabu - https://github.com/projectdiscovery/naabu - Projectdiscovery
 
-- nmap -  apt install nmap or https://github.com/nmap/nmap nmap.org
+- Nmap -  apt install nmap or https://github.com/nmap/nmap nmap.org
 
 - jq - https://stedolan.github.io/jq/download/
 
-- python3 - https://docs.python-guide.org/starting/install3/linux/
+- Python3 - https://docs.python-guide.org/starting/install3/linux/
 
 
 
